@@ -1,0 +1,48 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header, .footer {
+    color: #fff;
+    background: #3C3C3C;
+    flex-shrink: 0;
+    border: 0 solid rgba(0, 0, 0, .5);
+}
+
+.header {
+    border-bottom-width: 1px;
+}
+
+.footer {
+    border-top-width: 1px;
+    text-align: center;
+}
+
+.content {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.middle {
+    max-width: 1000px;
+    margin: auto;
+    padding: 5px 0;
+}
+
+.center{
+    text-align: center;
+}
+
+.header a {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    color: #fff
+}
+
+.header a:hover {
+    background: rgba(255, 255, 255, .5);
+}

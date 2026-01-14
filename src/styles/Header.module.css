@@ -1,0 +1,22 @@
+.headerMenu {
+    display: flex;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.countBadge {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    min-width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
